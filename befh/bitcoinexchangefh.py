@@ -23,6 +23,11 @@ from befh.exch_bibox import ExchGwBibox
 from befh.exch_aex import ExchGwAex
 from befh.exch_bigone import ExchGwBigone
 from befh.exch_gateio import ExchGwGateio
+from befh.exch_coinone import ExchGwCoinOne
+# from befh.exch_luno import ExchGwLuno  # need pre-setup!
+from befh.exch_okcoin import ExchGwOkCoin
+from befh.exch_wex import ExchGwWex
+from befh.exch_yunbi import ExchGwYunbi
 
 from befh.kdbplus_client import KdbPlusClient
 from befh.mysql_client import MysqlClient
@@ -166,6 +171,11 @@ def main():
     exch_gws.append(ExchGwAex(db_clients))
     exch_gws.append(ExchGwBigone(db_clients))
     exch_gws.append(ExchGwGateio(db_clients))
+    exch_gws.append(ExchGwCoinOne(db_clients))
+    # exch_gws.append(ExchGwLuno(db_clients))
+    exch_gws.append(ExchGwOkCoin(db_clients))
+    exch_gws.append(ExchGwWex(db_clients))
+    exch_gws.append(ExchGwYunbi(db_clients))
 
     threads = []
     for exch in exch_gws:

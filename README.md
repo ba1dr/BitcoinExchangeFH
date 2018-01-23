@@ -36,6 +36,7 @@ Users can
 - CoinOne (RESTful)
 - Cryptopia (RESTful)
 - Gatecoin (RESTful)
+- GateIO (RESTful)
 - GDAX (Websocket)
 - Kraken (RESTful)
 - Liqui (RESTful)
