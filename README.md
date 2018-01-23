@@ -27,12 +27,13 @@ Users can
 
 ## Supported exchanges
 
-- Binance (RESTful)
+- Binance (RESTful). TODO: Websocket
 - Bitfinex (Websocket)
 - BitMEX (Websocket)
 - Bitstamp (Websocket)
 - Bittrex (RESTful)
 - BTCC (RESTful)
+- CoinOne (RESTful)
 - Cryptopia (RESTful)
 - Gatecoin (RESTful)
 - GDAX (Websocket)
@@ -47,6 +48,8 @@ Users can
 - Bibox (RESTful)
 - Okex (RESTful)
 - Aex (RESTful)
+- Wex (RESTful)
+- Yunbi (RESTful)
 
 Currently the support of other exchanges is still under development.
 
